@@ -13,7 +13,7 @@ import typing
 import threading
 import time
 
-from requests_html import HTMLSession
+from requests_html import HTMLSession # type: ignore
 
 
 class ProxyFinder:
